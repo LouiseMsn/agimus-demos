@@ -385,7 +385,7 @@ def launch_setup(
 
     robot_description_file_substitution = PathJoinSubstitution(
         [
-            FindPackageShare("franka_description"),
+            FindPackageShare("agimus_franka_description"),
             "robots",
             arm_id_str,
             f"{arm_id_str}.urdf.xacro",
@@ -446,7 +446,7 @@ def launch_setup(
 
     srdf_file_subtitution = PathJoinSubstitution(
         [
-            FindPackageShare("franka_description"),
+            FindPackageShare("agimus_franka_description"),
             "robots",
             arm_id_str,
             f"{arm_id_str}.srdf",
@@ -562,7 +562,7 @@ def generate_launch_description():
             "gz_world_path",
             default_value=PathJoinSubstitution(
                 [
-                    FindPackageShare("franka_description"),
+                    FindPackageShare("agimus_franka_description"),
                     "worlds",
                     "empty.sdf",
                 ]
