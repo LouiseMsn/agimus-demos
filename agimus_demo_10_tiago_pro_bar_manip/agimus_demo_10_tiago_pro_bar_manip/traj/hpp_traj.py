@@ -394,7 +394,7 @@ class HPPPathGenerator:
 
     # ── Planning API ───────────────────────────────────────────────────────
 
-    def plan_grasp(self, gripper: str, handle: str, q_init: list):
+    def plan_pick(self, gripper: str, handle: str, q_init: list):
         result = self._path_planner.planPathtoBarHandling(
             gripper, handle, q_init, self._v, self._logger
         )

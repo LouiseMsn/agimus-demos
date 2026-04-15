@@ -1,4 +1,5 @@
 # Goal
+string action_type
 string gripper
 string handle
 ---
