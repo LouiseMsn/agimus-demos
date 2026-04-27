@@ -44,7 +44,7 @@ def launch_setup(
                 FindPackageShare("agimus_demos_common"),
                 "config",
                 "tiago_pro",
-                "joint_state_estimator_params.yaml",
+                "joint_state_estimator_simu_params.yaml",
             ]
         ),
     ]
