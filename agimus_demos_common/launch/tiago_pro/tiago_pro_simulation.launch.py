@@ -36,7 +36,7 @@ def launch_setup(
                 FindPackageShare("agimus_demos_common"),
                 "config",
                 "tiago_pro",
-                "linear_feedback_controller_params.yaml",
+                "linear_feedback_controller_simu_params.yaml",
             ]
         ),
         PathJoinSubstitution(
