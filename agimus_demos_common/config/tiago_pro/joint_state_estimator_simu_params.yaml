@@ -13,7 +13,8 @@ joint_state_estimator:
       arm_right_2_joint/velocity, arm_right_3_joint/velocity, arm_right_4_joint/velocity,
       arm_right_5_joint/velocity, arm_right_6_joint/velocity, arm_right_7_joint/velocity,
       arm_right_1_joint/effort, arm_right_2_joint/effort, arm_right_3_joint/effort, arm_right_4_joint/effort,
-      arm_right_5_joint/effort, arm_right_6_joint/effort, arm_right_7_joint/effort]
+      arm_right_5_joint/effort, arm_right_6_joint/effort, arm_right_7_joint/effort, torso_lift_joint/effort,
+      torso_lift_joint/position, torso_lift_joint/velocity]
     command_interfaces: [linear_feedback_controller/arm_left_1_joint/position, linear_feedback_controller/arm_left_2_joint/position,
       linear_feedback_controller/arm_left_3_joint/position, linear_feedback_controller/arm_left_4_joint/position,
       linear_feedback_controller/arm_left_5_joint/position, linear_feedback_controller/arm_left_6_joint/position,
@@ -34,4 +35,5 @@ joint_state_estimator:
       linear_feedback_controller/arm_right_7_joint/velocity, linear_feedback_controller/arm_right_1_joint/effort,
       linear_feedback_controller/arm_right_2_joint/effort, linear_feedback_controller/arm_right_3_joint/effort,
       linear_feedback_controller/arm_right_4_joint/effort, linear_feedback_controller/arm_right_5_joint/effort,
-      linear_feedback_controller/arm_right_6_joint/effort, linear_feedback_controller/arm_right_7_joint/effort]
+      linear_feedback_controller/arm_right_6_joint/effort, linear_feedback_controller/arm_right_7_joint/effort,
+      torso_lift_joint/position, torso_lift_joint/velocity]

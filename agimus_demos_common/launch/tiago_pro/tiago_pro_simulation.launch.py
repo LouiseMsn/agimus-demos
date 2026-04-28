@@ -63,6 +63,7 @@ def launch_setup(
         "arm_right_5_joint_inertia_shaping_controller",
         "arm_right_6_joint_inertia_shaping_controller",
         "arm_right_7_joint_inertia_shaping_controller",
+        "torso_lift_joint_intertia_shaping_controller",
         "linear_feedback_controller",
         "joint_state_estimator",
     ]
@@ -120,6 +121,7 @@ def launch_setup(
             "arm_right_5_joint_inertia_shaping_controller",
             "arm_right_6_joint_inertia_shaping_controller",
             "arm_right_7_joint_inertia_shaping_controller",
+            "torso_lift_joint_intertia_shaping_controller",
             "linear_feedback_controller",
             "joint_state_estimator",
         ],
