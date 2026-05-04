@@ -14,10 +14,10 @@
   <url type="bugtracker">https://github.com/agimus-project/agimus-demos/issues</url>
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
 
-  <exec_depend>agimus_demos_common</exec_depend>
   <depend>test_agimus_type</depend>
 
   <exec_depend>ros2launch</exec_depend>
+  <exec_depend>agimus_demos_common</exec_depend>
   <exec_depend>agimus_demo_09_glue_spreading</exec_depend>
 
   <export>
